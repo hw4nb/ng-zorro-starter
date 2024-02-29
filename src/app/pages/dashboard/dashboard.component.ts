@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
   selector: 'app-dashboard',
   standalone: true,
   imports: [RouterModule],
-  template: ` <router-outlet /> `,
-  styles: ``,
+  template: ' <router-outlet /> ',
+  styles: '',
 })
 export class DashboardComponent {}
