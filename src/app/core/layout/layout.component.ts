@@ -2,6 +2,7 @@ import { Component, inject, signal } from '@angular/core';
 import { Router, RouterLink, RouterOutlet } from '@angular/router';
 
 import { NzAvatarModule } from 'ng-zorro-antd/avatar';
+import { NzCardModule } from 'ng-zorro-antd/card';
 import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
@@ -18,6 +19,7 @@ const NG_ZORRO_MODULES = [
 	NzAvatarModule,
 	NzDropDownModule,
 	NzTypographyModule,
+	NzCardModule,
 ];
 
 const COMPONENTS = [SpinnerComponent];
