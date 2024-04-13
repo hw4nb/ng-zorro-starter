@@ -1,4 +1,6 @@
-import { Component } from '@angular/core'
+import { Component, inject } from '@angular/core';
+
+import { SpinnerService } from '@src/app/core/services';
 
 @Component({
 	selector: 'app-spinner',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core'
 	templateUrl: './spinner.component.html',
 	styleUrl: './spinner.component.scss',
 })
-export class SpinnerComponent {}
+export class SpinnerComponent {
+	private _loader = inject(SpinnerService);
+
+	get getLoading() {
+		return this._loader.getStatusSpinner;
+	}
+}

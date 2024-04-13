@@ -1,51 +1,56 @@
 nz-layout {
-  min-height: 100dvh;
+	min-height: 100dvh;
 }
 
 .trigger:hover {
-  color: #1890ff;
+	color: #1890ff;
 }
 
 .logo {
-  height: 32px;
-  background: rgba(255, 255, 255, 0.2);
-  margin: 16px;
+	background: rgba(255, 255, 255, 0.2);
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin: 10px;
+	padding: 8px;
+	text-align: center;
 }
 
 nz-header {
-  background: #fff;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	background: #fff;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 
-  .user {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    cursor: pointer;
-    margin-right: 24px;
-    margin-left: auto;
+	.user {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		cursor: pointer;
+		margin-right: 24px;
+		margin-left: auto;
 
-    p {
-      margin-bottom: 0;
-      font-weight: 500;
-    }
-  }
+		p {
+			margin-bottom: 0;
+			font-weight: 500;
+		}
+	}
 }
 
 nz-content {
-  margin: 16px;
+	margin: 10px;
 }
 
 .inner-content {
-  padding: 24px;
-  background: #fff;
-  min-height: calc(100dvh - 142px);
+	padding: 24px;
+	background: #fff;
+	min-height: calc(100dvh - 130px);
 }
 
 nz-footer {
-  text-align: center;
-  background: #fff;
-  padding-block: 12px;
+	text-align: center;
+	background: #fff;
+	padding-block: 12px;
+	padding-inline: 0;
 }
